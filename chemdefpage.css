@@ -1,0 +1,47 @@
+.cdcontent {
+	text-align: justify;
+	width: 55%;
+	margin-left: 20px;
+}
+.cdimg {
+	float: right;
+	margin-right: 30px;
+	margin-top: 25px;
+	height: 87vh;
+	width: 25%;
+	overflow: scroll;
+	text-align: center;
+}
+.cdimg > p {
+	font-size: 20px;
+	margin-right: 0px;
+}
+li {
+	font-size: 20px;
+}
+div > h1 {
+	font-size: 40px;
+}
+div > h4 {
+	font-size: 27px;
+}
+li > a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	background-color: rgba(130, 127, 234, 0.6);
+	text-shadow: 2px 2px 4px gray;
+}
+div.ref > h6 {
+	font-size: 11px;
+}
+div.ref > a {
+	font-size: 9px;
+	text-decoration: none;
+	color: black;
+}
+.video1 {
+	position: relative;
+	top: 15px;
+}
