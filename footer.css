@@ -1,0 +1,55 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+}
+.ftrfix {
+	position: relative;
+	transform: translate(-20px)
+}
+.socmedlist {
+	display: inline;
+	padding-left: 1%;
+}
+.desc {
+	transform: translate(0px,12.5px);
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.yt {
+	background: url('images/icon.png') no-repeat -583px -48px;
+	width: 209px;
+	height: 159px;
+}
+.fb {
+	background: url('images/fbicon.png') no-repeat 0px 0px;
+	width: 153px;
+	height: 156px;
+}
+.twt {
+	background: url('images/icon.png') no-repeat -4px -51px;
+	width: 153px;
+	height: 156px;
+}

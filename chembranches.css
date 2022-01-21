@@ -1,0 +1,26 @@
+header, article {
+	position: relative;
+	left: 20px;
+}
+header {
+	font-size: 25px;
+}
+article {
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+li > a {
+	color: navy;
+}
+li > a:visited {
+	color: navy;
+}
+li > a:hover {
+	background-color: rgba(130, 127, 234, 0.6);
+	text-shadow: 2px 2px 4px grey;
+}
+li > a:active {
+	color: blue;
+}

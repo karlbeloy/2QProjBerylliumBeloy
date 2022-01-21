@@ -1,0 +1,63 @@
+header, article, aside, section, footer {
+	position: relative;
+	left: 20px;
+}
+header {
+	font-size: 25px;
+}
+article {
+	font-size: 20px;
+	text-align: justify;
+}
+li {
+	width: 700px;
+}
+a.hyperlink:link {
+	text-decoration: none;
+	color: navy;
+}
+a.hyperlink:visited {
+	color: navy;
+}
+}
+a.hyperlink:active {
+	color: blue;
+}
+a.hyperlink:hover {
+	background-color: rgba(130, 127, 234, 0.6);
+	text-shadow: 2px 2px 4px gray;
+}
+a.ref:link {
+	text-decoration: none;
+	color: black;
+}
+a.ref:visited {
+	color: black;
+}
+}
+a.ref:active {
+	color: blue;
+}
+a.ref:hover {
+	background-color: rgba(130, 127, 234, 0.6);
+	text-shadow: 2px 2px 4px gray;
+}
+#back {
+	float: clear;
+	padding: 5px;
+	border: 2px solid navy;
+	background-color: #7777ff;
+}
+.divlist {
+	float: left;
+	width: 33.33%;
+}
+#physchemcaption {
+	width: 700px;
+	text-align: justify;
+}
+#ppmtablecaption, #atpcaption {
+	font-size: 17px;
+	width: 700px;
+	text-align: justify;
+}
